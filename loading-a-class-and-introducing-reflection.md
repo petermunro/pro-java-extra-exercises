@@ -71,7 +71,7 @@ Here are more detailed steps if you need some extra help:
    ```java
        // Cast the instance to a known interface or superclass, if applicable
        if (instance instanceof java.util.List) {
-           java.util.List<?> list = (java.util.List<?>) instance;
+           java.util.List list = (java.util.List) instance;
 
            // Perform operations on the list object
            list.add("Hello");
@@ -100,7 +100,7 @@ try {
 
     // Cast the instance to a known interface or superclass, if applicable
     if (instance instanceof java.util.List) {
-        java.util.List<?> list = (java.util.List<?>) instance;
+        java.util.List list = (java.util.List) instance;
 
         // Perform operations on the list object
         list.add("Hello");
